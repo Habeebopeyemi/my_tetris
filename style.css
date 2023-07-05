@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.grid {
+  width: 200px;
+  height: 400px;
+  background-color: rgb(243, 234, 234);
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid div {
+  width: 20px;
+  height: 20px;
+  /* background-color: red; */
+}
+.tetromino {
+  background-color: blue;
+}
+.player_info_section {
+  flex: 0 1 30%;
+}
+
+.player_info_section h1,
+.mini-grid {
+  margin: 0 0 1rem 0;
+}
+.mini-grid {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mini-grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.update_display {
+  padding: 1rem;
+  background-color: rgb(179, 174, 174);
+}
+.update_display h3{
+  margin: 0 0 1rem 0;
+}
+#start-button{
+  width: 50%;
+  padding: 1rem;
+}
+.bxi{
+  padding: .2rem;
+  margin: 0 .4rem 0 0;
+  background-color:rgb(238, 231, 231);
+}
